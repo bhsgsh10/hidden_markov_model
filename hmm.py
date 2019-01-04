@@ -277,6 +277,10 @@ def get_trained_transtion_probabilities(classes):
     k = 1
     # create a matrix of no. of states * no. of states and
     state_list = get_state_list(classes)
+<<<<<<< HEAD
+=======
+    state_count = len(state_list)
+>>>>>>> fc010f869def0962debc566240de905466d8d298
     transition_probabilities = []
     for i in range(len(state_list)):
         jlist = []
@@ -308,6 +312,10 @@ def get_trained_emission_probabilities(classes, observations):
     k = 1
     # create a matrix of no. of states * no. of states and
     state_list = get_state_list(classes)
+<<<<<<< HEAD
+=======
+    state_count = len(state_list)
+>>>>>>> fc010f869def0962debc566240de905466d8d298
     emission_probabilities = []
     for i in range(len(state_list)):
         jlist = []
